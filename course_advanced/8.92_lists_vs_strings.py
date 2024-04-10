@@ -34,3 +34,39 @@ print(ex_10)
 
 # Why does Python have references?
 # copy module and deepcopy()
+import copy
+ex_12 = [1, 2, 3, 4, 5]
+ex_13 = copy.deepcopy(ex_12)
+print(ex_12)
+print(ex_13)
+ex_13[2] = 4
+print(ex_12)
+print(ex_13)
+ex_14 = ex_13
+ex_14[4] = 6
+print(ex_12)
+print(ex_13)
+
+#listy mogą zajmować wiele linii, przykład
+ex_15 = ["bush",
+         "fern",
+         "tree",
+         "moss"]
+
+print(ex_15)
+
+# kontynuowanie poleceń w wielu liniach za pomocą \
+ex_16 = 2 + \
+        4 + \
+        1
+print(ex_16)
+
+ex_17 = "The Emp\
+ire Strkes \
+Back"
+
+print(ex_17)
+
+ex_18 = "hello " + \
+        "world"
+print(ex_18)
