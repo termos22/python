@@ -36,3 +36,17 @@ list_1 = [1, 3, 5]
 print(tuple_12.__sizeof__())
 print(list_1.__sizeof__())
 
+occupation = {("Angus", "Young"): "musician",
+              ("Narendra", "Modi"): "prime minister",
+              ("Richard", "Branson"): "entrepreneur",
+              ("Quentin", "Tarantino"): "fimmaker"
+              }
+
+seven_wonders = {("29°58'44N", "31°08'02E"): "The Great Pyramid of Giza, Egipt",
+                 ("33°13'23N", "43°40'45E"): "Hanging Gardens of Babylon",
+                 ("37°38'18N", "21°37'47E"): "Archaeological Site of Olympia, Greece",
+                 ("37°55'33N", "23°59'36E"): "Temple of Artemis at Ephesus",
+                 ("37°02'16N", "27°25'26E"): "Mausoleum at Halicarnassus",
+                 ("36°26'02N", "28°13'03E"): "Rhodes, Greece",
+                 ("31°12'51N", "29°53'28E"): "Lighthouse of Alexandria, Egipt"
+                 }
