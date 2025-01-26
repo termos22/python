@@ -1,6 +1,7 @@
 # Zgadnij liczbę - prosty program pokazujący moc Pythona!
 # Autor: Tukano Software House
 # Data: 2024
+# źródło: https://github.com/tukanosoftwarehouse/python-ai-edu/blob/master/stage_01/03/03_1_zgadnij_liczbe.py
 
 import random
 
